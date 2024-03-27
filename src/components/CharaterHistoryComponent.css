@@ -1,0 +1,29 @@
+.char-background {
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: end;
+    margin-bottom: 10px;
+  }
+
+  .char-background h4  {
+
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     
+ }
+  
+  .char-background textarea {
+  
+    color: #161515;
+    padding: .5rem 1rem;
+    width: 500px;
+    
+  }
+
+  
+  

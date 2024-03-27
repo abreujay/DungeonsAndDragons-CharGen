@@ -1,0 +1,110 @@
+.summary {
+
+    background: linear-gradient(to bottom, #c7c5c5, #4d4d4d);
+    color: #292929;
+    width: 700px;
+    height: 700px;
+    border: 8px solid #171718;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 2rem 3rem;
+
+}
+
+.summary h2 {
+
+    color: #292929;
+    border-bottom: 1px solid #292929;
+    width: 90px;
+    margin: 0 auto;
+
+}
+
+.summary .space {
+
+    color: #292929;
+
+}
+
+.summary p {
+
+    color: #292929; 
+    border: 1px solid #292929;
+    width: 150px;
+    margin: 0 auto;
+    pad: 1rem;
+
+
+}
+
+.summary h3 {
+
+    color: #292929; 
+
+}
+
+.summary h5 {
+
+    color: #292929;
+    font-size: 15px;
+
+}
+
+.summary h4 {
+
+    color: #292929;
+    font-size: 15px;
+
+}
+
+.summary input {
+
+    width: 150px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 1rem;
+    background: #292929;
+    border: 3px solid #292929;
+
+}
+
+.summary.active {
+  display: flex;
+}
+
+.summary:not(.active) {
+  display: none;
+}
+
+.summary input {
+
+    margin-bottom: 5px;
+
+}
+
+.summary button {
+
+    width: 100px;
+    margin: 0 auto;
+
+}
+
+
+.summary .done{
+
+    width: 100px;
+    margin: 0 auto;
+    border: none;
+    color: #e6e2d6;
+    background-color: #171718;
+    margin-top: 300px;
+}
+
+div.summary.active {
+    display: flex;
+}

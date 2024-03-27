@@ -1,0 +1,15 @@
+* {
+
+  font-family: Pirata One;
+  color: #e2e2e2;
+
+}
+
+body,
+html {
+
+  background: linear-gradient(to bottom, #0c0c0c, #451149);
+  height: 1600px;
+  max-width: 2000;
+
+}

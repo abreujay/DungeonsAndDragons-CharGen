@@ -1,0 +1,110 @@
+.App {
+
+  border: #5c5c5c 1px solid;
+
+}
+
+header {
+
+  position: relative;
+  display: flex;
+  background-color: rgba(27, 27, 27, 0.933);
+  width: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 25px;
+  border: #5c5c5c 1px solid;
+
+}
+
+header img {
+
+  width: 50px;
+  height: auto;
+
+}
+
+header h3 {
+
+  position: absolute;
+  left: 49%;
+  top: 1px;
+  
+}
+
+.main-container {
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  height: 1500px;
+  background-color: #161515;
+  border-radius: 1rem;
+
+}
+
+.main-container .title {
+
+  margin-top: 2px;
+  border: 1px solid #161515;
+  width: 1500px;
+  
+  
+}
+
+.main-container img {
+
+  width: 40px;
+  height: auto;
+  position: absolute;
+  top: 115px;
+  left: 740px;
+
+}
+
+.raceSelector {
+
+  width: 40%;
+  margin-bottom: 30px;
+
+}
+
+.classSelector {
+
+  width: 40%;
+  margin-bottom: 30px;
+
+}
+
+.lore {
+
+  width: 40%;
+  margin-bottom: 30px;
+  
+}
+
+button {
+
+  margin-bottom: 200px;
+  background: #161515;
+
+}
+
+footer {
+
+  background-color: #161515;
+  width: 80%;
+  height: 50px;
+  padding: 1rem;
+  margin: 0 auto;
+  border: #5c5c5c 1px solid;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
